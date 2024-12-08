@@ -1,0 +1,31 @@
+{
+  "name": "@cloud-copilot/prettier-config",
+  "version": "0.1.0",
+  "description": "Shared prettier config",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "clean": "rm -rf dist",
+    "release": "npm install && npm run clean && npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloud-copilot/prettier-config.git"
+  },
+  "keywords": [
+    "Cloud Copilot",
+    "prettier"
+  ],
+  "author": "Cloud Copilot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloud-copilot/prettier-config/issues"
+  },
+  "homepage": "https://github.com/cloud-copilot/prettier-config#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
